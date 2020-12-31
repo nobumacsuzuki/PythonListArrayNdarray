@@ -21,6 +21,8 @@ def main():
     print(thisIsNdarray)
     thisIsNdarray = thisIsNdarray.reshape(4,3) # change to 3 x 4 matrix
     print(thisIsNdarray)
+    thisIsNdarray = thisIsNdarray.reshape(2,2,3) # change to 3 x 2 x 2 matrix
+    print(thisIsNdarray)
     thisIsNdarray = thisIsNdarray.reshape(3,4) # change back to 4 x 3 matrix
     print(thisIsNdarray)
     # how to use slice
